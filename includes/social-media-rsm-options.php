@@ -5,6 +5,7 @@ function social_media_rsm_options_frontend($args){
     require_once(DIRECTORY_ROOT_SOCIAL_MEDIA_RSM.'includes/templates/op.php');
 }
 
+// registrando no menu administrativo o plugin
 function social_media_rsm_options_register(){
     add_options_page('Social Media RSM', 
     'Social Media RSM', 
