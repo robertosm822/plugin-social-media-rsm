@@ -1,7 +1,8 @@
 <?php
 
 function social_media_rsm_options_frontend($args){
-    echo "Opções do Plugin Social Media RSM";
+    
+    require_once(DIRECTORY_ROOT_SOCIAL_MEDIA_RSM.'includes/templates/op.php');
 }
 
 function social_media_rsm_options_register(){
@@ -15,3 +16,9 @@ function social_media_rsm_options_register(){
 }
 
 add_action('admin_menu', 'social_media_rsm_options_register');
+
+function social_media_rsm_settings_api(){
+    register_setting('social_op', 'social_media_icons');
+}
+
+add_action('admin_init', 'social_media_rsm_settings_api');
