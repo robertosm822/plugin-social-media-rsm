@@ -11,7 +11,8 @@ function social_media_rsm_options_register(){
     'Social Media RSM', 
     'manage_options',
     'social-media-rsm',
-    'social_media_rsm_options_frontend','11'
+    'social_media_rsm_options_frontend',
+    null
     );
     
 }
