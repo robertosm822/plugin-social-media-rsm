@@ -1,15 +1,7 @@
 <style>
-.social-icones img {
-    width: 40px;
-    height: auto;
-}
-.line-hr{
-    width: 39%;
-    height: 2px;
-    background-color: #c8c8c8;
-    margin-bottom: 5px;
-}
+
 </style>
+<link rel="stylesheet" href="<?php echo plugin_dir_url(__FILE__)."css/style.css"; ?>">
 <div class="social-conteudo">
     Me encontre nas redes sociais:
     <div class="line-hr"></div>

@@ -1,0 +1,18 @@
+.social-icones img {
+    width: 40px;
+    height: auto;
+}
+.social-icones a{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.social-icones a:link{
+    text-decoration: none;
+}
+.line-hr{
+    width: 39%;
+    height: 2px;
+    background-color: #c8c8c8;
+    margin-bottom: 5px;
+}
